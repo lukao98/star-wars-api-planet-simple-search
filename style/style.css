@@ -10,3 +10,20 @@ img {
 	right: 0;
 	bottom: 0;
 }
+
+footer {
+	position:absolute;
+	bottom:0;
+	width:99%;
+	color: white;
+	border: 2px solid gray;
+	box-shadow: 0px 0px 10px white;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	text-transform: none;
+	color: #baba98;
+	font-style: italic;
+}
