@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planetario SW</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
   </head>
   <body>
     <header>
       <figure>
-			     <img src="img/swlogo.png" style="width:50%;height:50%">
+			     <img src="img/swlogo.png">
 		   </figure>
     </header>
     <main>
       <section class="form">
        <form onchange="habilitarBotao()">
-			       <input id="pesquisar" type="text" name="Planeta" placeholder="Apenas números">
+			       <input id="pesquisar" type="number" name="Planeta" placeholder="Busque um planeta">
 			       <button id="procurar" disabled="true" type="button">Pesquisar</button>
        </form>
       </section>
@@ -25,6 +25,6 @@
         Desenvolvido por <a href="https://github.com/lukao98/" target="_blank">Lucas Gabriel</a>
       </p>
     </footer>
-		<script src="js/habilitarBotao.js"></script>
+		<script src="./js/habilitarBotao.js"></script>
   </body>
 </html>
