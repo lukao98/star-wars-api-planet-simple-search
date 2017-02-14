@@ -1,0 +1,43 @@
+html {
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: black;
+}
+
+img {
+	width:50%;
+	height:50%;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+footer {
+	position:absolute;
+	bottom:0;
+	width:99%;
+	font-size: 1.6rem;
+	color: white;
+	border: 0.2rem solid gray;
+	box-shadow: 0px 0px 1rem white;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	text-transform: none;
+	color: #baba98;
+	font-style: italic;
+}
+
+.form {
+	position: absolute;
+	bottom: 10rem;
+	left: 56.5rem;
+}
