@@ -1,0 +1,28 @@
+{
+  "name": "star-wars-api-note",
+  "version": "1.0.0",
+  "description": "A aplicação sera integrada com a swapi onde poderá fazer buscas sobre planetas do mundo Star Wars.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukao98/star-wars-api-planet-simple-search.git"
+  },
+  "author": "Lucas Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukao98/star-wars-api-planet-simple-search/issues"
+  },
+  "homepage": "https://github.com/lukao98/star-wars-api-planet-simple-search#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
